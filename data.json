@@ -1,32 +1,16 @@
 {
-    "users":[
-        {
-            "id":1,
-            "name":"Nuray",
-            "age":19,
-            "email":"eliyeva@gmail.com"
-
-        },
-        {
-            "id":2,
-            "name":"xatire",
-            "age":17,
-            "email":"eliyeva06@gmail.com"
-
-        },
-        {
-            "id":3,
-            "name":"Nurane",
-            "age":29,
-            "email":"heseneliyeva@gmail.com"
-
-        },
-        {
-            "id":4,
-            "name":"Ruqayye",
-            "age":32,
-            "email":"elizadeh@gmail.com"
-
-        }
-    ]
+  "users": [
+    {
+      "id": "3",
+      "name": "Nurane",
+      "age": 29,
+      "email": "heseneliyeva@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Ruqayye",
+      "age": 32,
+      "email": "elizadeh@gmail.com"
+    }
+  ]
 }

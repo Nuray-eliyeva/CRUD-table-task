@@ -12,7 +12,10 @@ const App = () => {
   
   
   }, [data])
-  
+  const deleteData=function(id){
+    axios.delete(`http://localhost:8000/users/${id}`)
+   
+  }
 
   return (
     <div>
@@ -23,6 +26,7 @@ const App = () => {
          <th>First Name</th>
          <th>Age</th>
          <th>Email</th>
+         <th>delete</th>
         
          </tr>
          </thead>
@@ -35,8 +39,8 @@ const App = () => {
               <td>{item.name}</td>
               <td>{item.age}</td>
               <td>{item.email}</td>
-            
-       </tr>
+              <td className="deleteBtn"><button onClick={()=>deleteData(item.id)}>X</button></td>
+             </tr>
             )
           })
 }
